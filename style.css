@@ -1,0 +1,198 @@
+/*font-family: 'Montserrat', sans-serif;
+BARVY:
+pozadí strýnky - #FAFAFA
+černá - #000000
+šedá - #8B8B8B
+primární modrá - #407BFF
+bílá - #FFFFFF
+modrošedá - #407BFF1F*/
+
+/*společné prvky*/
+
+html { box-sizing: border-box;
+}
+*,::before, ::after { box-sizing: inherit; }
+
+body {
+    font-family: 'Montserrat', sans-serif;
+    background-color: #FAFAFA;
+    color: #8B8B8B;
+    margin: 0 auto;
+    padding: 60px 20px;
+    width: 500px;
+    font-weight: 300;
+}
+
+.hlavicka {
+    text-align: center;
+}
+
+.obrazek-uvod {
+    max-width: 100%;
+    height: auto;
+}
+
+h1 {
+    color: #000000;
+    font-size: 28px;
+    margin-top: 0;
+    margin-bottom: 2px;
+    font-weight: 500;
+}
+
+.podtržení {
+    border: 2px solid #407BFF;
+    width: 60px;
+    margin: auto;
+}
+
+.tlacitko1, .tlacitko2 {
+    font-size: 14px;
+    font-weight: 400;
+    text-align: center;
+    color: white;
+    text-decoration: none;
+    display: flex;
+    flex-direction: column;
+    border-radius: 20px;
+    margin: auto;
+    margin-top: 30px;
+    margin-bottom: 10px;
+    padding: 10px 30px;
+    width: 100%;
+   }
+
+.tlacitko1 {
+    background-color: #407BFF;
+    max-width: 195px;
+    }
+
+.tlacitko2 {
+    background-color: #8B8B8B;
+    max-width: 222px;
+    }
+
+h2 {
+    font-size: 16px;
+    color: black;
+    margin-top: 60px;
+    margin-bottom: 15px;
+    font-weight: 500;
+    text-align: center;
+}
+
+.mapa, .kaktus, .letadlo, .palma, .slunečník, .karavan {
+    padding: 20px 40px 20px 20px;
+}
+
+.kancl-prvni, .kancl-druha, .kancl-treti, .deleg-prvni, .deleg-druhy, .deleg-treti {
+    margin: 20px 30px 20px 20px;
+    border: 0px;
+    border-radius: 10px;
+    background-color: white;
+    box-shadow: 0 4px 6px #407BFF1F;
+    display: flex;
+    margin-bottom: 15px;
+    max-width: 100%;
+   }
+
+   .zarovnani {
+    text-align: center;
+} 
+
+   @media screen and (min-width: 640px) {
+       body {
+           width: 700px;
+        } 
+    .tlacitka {
+        display: flex;
+        margin-top: 30px;
+         }
+
+    .tlacitko1 {
+        margin-right: 10px;
+    }        
+    
+    .tlacitko2 {
+        margin-left: 10px;
+    }
+
+    .kancl-prvni, .kancl-druha, .kancl-treti, .deleg-prvni, .deleg-druhy, .deleg-treti {
+        display: block;
+        flex: 1 1 calc((100% - 40px) / 3);
+        height: 170px;
+        width: 230px;
+        padding-top: 0;
+        padding-bottom: 20px;
+        text-align: center;
+
+    }
+
+    .mapa, .kaktus, .letadlo, .palma, .slunečník, .karavan {
+        padding: 40px 90px 20px 90px;
+
+    }
+  
+    p{
+        padding: 0px 15px 20px 15px;
+    }
+    }
+
+    @media screen and (min-width: 1100px) {
+        body {
+            display: flex;
+            align-items: center;
+            margin-left: auto;
+            margin-right: auto;
+        }
+
+        .hlavicka {
+            display: flex;
+            flex-direction: row-reverse;
+            margin-bottom: 80px;
+        }
+
+        .obrazek-uvod {
+            max-width: 425px;
+            margin-left: 95px;
+            text-align: center;
+        }
+
+        .podtržení {
+            margin: 0;
+        }
+
+        .zarovnani {
+            margin-top: 30px;
+            margin-bottom: 30px;
+        }
+
+        .tlacitka {
+            margin: 0;
+        }
+
+        .služby-kancelář {
+            display: flex;
+            flex-direction: row-reverse;
+            margin-bottom: 80px;
+        }
+
+        .služby-delegáti {
+            text-align: left;
+            max-width: 430px;
+            margin-top: 40px;
+        }
+
+        .ikonky {
+            height: 190px;
+            width: 170px;
+            text-align: center;
+            padding-top: 10px;
+            padding-top: 40px;
+            margin: 0 20px 0 0;
+             }
+
+        .mapa, .kaktus, .letadlo, .palma, .slunečník, .karavan {
+            padding: 40px 60px 10px 10px;
+        }
+    }
