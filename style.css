@@ -81,7 +81,7 @@ h2 {
     text-align: center;
 }
 
-.mapa, .kaktus, .letadlo, .palma, .slunecnik, .karavan {
+.obrazky male {
     padding: 20px 40px 20px 20px;
 }
 
@@ -128,7 +128,7 @@ h2 {
 
     }
 
-    .mapa, .kaktus, .letadlo, .palma, .slunečník, .karavan {
+    .obrazky male {
         padding: 40px 90px 20px 90px;
 
     }
@@ -192,7 +192,7 @@ h2 {
             margin: 0 20px 0 0;
              }
 
-        .mapa, .kaktus, .letadlo, .palma, .slunečník, .karavan {
+        .obrazky male {
             padding: 40px 60px 10px 10px;
         }
     }
